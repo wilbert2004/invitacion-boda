@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Boda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">¡Nos Casamos!</h1>
+            <p class="couple-names">María & Juan</p>
+            <img src="imagen-de-boda.png" alt="María y Juan" class="couple-image">
+        </header>
+        
+        <section class="details">
+            <p class="invitation-text">Tenemos el placer de invitarte a nuestra boda que se celebrará el:</p>
+            <p class="date">15 de Septiembre, 2024</p>
+            <p class="time">a las 17:00 horas</p>
+            <p class="location">en la Iglesia de San Pedro, Ciudad de México</p>
+        </section>
+
+        <section class="countdown">
+            <p>Faltan:</p>
+            <div id="countdown"></div>
+        </section>
+        
+        <section class="confirmation">
+            <p>Por favor, confirma tu asistencia:</p>
+            <form id="rsvp-form">
+                <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+                <input type="text" id="phone" name="phone" placeholder="Tu Número de WhatsApp" required>
+                <button type="submit" class="rsvp-button">Confirmar Asistencia</button>
+            </form>
+        </section>
+        
+        <footer>
+            <p class="footer-text">Esperamos verte en nuestro día especial.</p>
+            <p class="contact-info">Para cualquier consulta, contáctanos: <a href="mailto:boda@mariajuan.com">boda@mariajuan.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
